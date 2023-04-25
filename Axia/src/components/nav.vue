@@ -10,7 +10,7 @@ export default {
 </script>
 
 <template>
-  <div class="fixed top-0 ml-[-2em] w-screen z-[999999999999] py-4 bg-[#FFFCF9]">
+  <div class="fixed top-0 ml-[-2em] w-screen z-[999999999999] py-4 bg-[#FFFCF9] mb-[5em]">
      <nav class=" top-0 flex flex-row  w-[1080px] mx-auto h-[53px] justify-around items-center z-[-3] mb-6">
     <div class=" v-logoo">
       <svg width="115" height="44" viewBox="0 0 115 44" fill="none"

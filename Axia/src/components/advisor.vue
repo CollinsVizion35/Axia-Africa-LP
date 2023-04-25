@@ -1,3 +1,6 @@
+
+
+
 <template>
     <div class="w-screen ml-[-2em] bg-[#202054] py-[9rem] text-white">
         <div class="max-w-[1280px] flex flex-col lg:flex-row justify-center mx-auto px-[150px] items-start">
@@ -20,4 +23,5 @@
 
             </div>
     </div>
-</div></template>
+</div>
+</template>

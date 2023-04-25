@@ -168,6 +168,22 @@ button:focus-visible {
 #btn8:hover {
   border-color: white;
 }
+#btn9:hover {
+  background-color: #202054;
+  border-color: #111111;
+  color: white;
+}
+
+#btn9:hover ~ #btn10 {
+  background-color: #f0b73f;
+  border-color: #f0b73f;
+}
+
+#btn10:hover {
+  border-color: #202054;
+}
+
+
 /* arrows effect */
 
 #arrowDiv1:hover #arrow1 {
@@ -198,20 +214,28 @@ button:focus-visible {
   margin-left: 1.5em;
 }
 
-
-#btn9:hover {
-  background-color: #202054;
-  border-color: #111111;
-  color: white;
+#arrowDiv8:hover #arrow8 {
+  margin-left: 1.5em;
 }
 
-#btn9:hover ~ #btn10 {
-  background-color: #f0b73f;
-  border-color: #f0b73f;
+/* animation */
+
+.anim {
+  animation: IconsMove 10s infinite;
 }
 
-#btn10:hover {
-  border-color: #202054;
+@keyframes IconsMove {
+  0%
+{
+  transform: translateY(0);
+}
+50%
+{
+  transform: translateY(-20px);
+}
+100% {
+  transform: translateY(0);
+}
 }
 
 @media (prefers-color-scheme: light) {

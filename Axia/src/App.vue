@@ -31,21 +31,7 @@
  <Footer/>
 </template>
 
-<style scoped>
-.button1:hover {
-  background-color: #202054;
-  border-color: #111111;
- color: white;
-}
+<!-- <style scoped>
 
-.button2 {
-  background-color: #202054;
-  border-color: #202054;
-}
 
-.button1:hover  .button2 {
-  background-color: yellow;
-  border-color: #202054;
-}
-
-</style>
+</style> -->
