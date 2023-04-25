@@ -10,7 +10,7 @@ export default {
 </script>
 
 <template>
-     <nav class=" flex flex-row justify-around w-[980px] h-[53px] items-center z-[-3]">
+     <nav class=" flex flex-row justify-around w-[1080px] mx-auto h-[53px] items-center z-[-3] mb-8">
     <div class=" v-logoo">
       <svg width="115" height="44" viewBox="0 0 115 44" fill="none"
         xmlns="http://www.w3.org/2000/svg">
@@ -65,8 +65,8 @@ export default {
     <div class="nav-bar flex flex-row w-[432px] justify-around">
       <div>About</div>
       <div class="dropdown">
-          <div>Schools</div>
-          <ul class="dropdown-content text-left absolute p-4 bg-[#FFFCF9]">
+          <div class="flex flex-row items-center space-x-2">Schools <font-awesome-icon class="text-[0.8em] ml-3" icon="fa-solid fa-chevron-down" /></div>
+          <ul class="shadow-lg dropdown-content text-left absolute flex space-y-3 z-[999999] mt-3 p-4 bg-[#FFFCF9]">
             <li>School of Product</li>
             <li>School of Engineering</li>
             <li>School of Data</li>
@@ -74,16 +74,16 @@ export default {
         </div>
       <div>Join Our Community</div>
       <div class="dropdown">
-          <div>Help <svgicon name="user" /></div>
-          <ul class="dropdown-content text-left absolute p-4 bg-[#FFFCF9]">
+          <div class="flex flex-row items-center space-x-2">Help  <font-awesome-icon class="text-[0.8em] ml-3" icon="fa-solid fa-chevron-down" /></div>
+          <ul class="shadow-lg dropdown-content text-left absolute flex space-y-3 z-[999999] mt-3 p-4 bg-[#FFFCF9]">
             <li>FAQs</li>
             <li>Contact Us</li>
           </ul>
         </div>
     </div>
     <div class="relative">
-      <Button class=" absolute bg-[#202054] border-4 border-[#202054] rounded-none h-[50px] w-[125px] left-3 top-3 z-0"></Button>
-      <Button class=" bg-inherit border-4 border-[#202054] rounded-none z-3">Apply Now</Button>
+      <Button class="  bg-[#202054] border-4 text-[#202054] border-[#202054] rounded-none  w-[135px] h-[53px] z-0">Apply Now</Button>
+      <Button class=" absolute bg-[#FFFCF9] border-4 border-[#202054] rounded-none  w-[135px] h-[53px] left-[-0.40em] top-[-0.40em]  z-3">Apply Now</Button>
     </div>
 
   </nav>

@@ -1,0 +1,37 @@
+<template>
+    <div class=" w-[980px] mx-auto mb-28">
+        <div class="flex flex-col-reverse lg:flex-row py-20 max-w-[1280px]">
+            <div class="flex flex-col">
+                <header class="accel font-medium  text-4xl">Discover the right school for your journey</header>
+                <div class="pt-5 w-[50%]">Axia Africa offers you the chance to explore schools which has variety of courses to learn from, like product design, Front end,</div>
+            </div>
+            <div>
+                <svg width="392" height="158" viewBox="0 0 392 158" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="7.4981" cy="33.4983" r="5.25" transform="rotate(31.4098 7.4981 33.4983)" fill="white" stroke="#111111" stroke-width="2.5"/>
+<circle cx="234.946" cy="148.946" r="7.28027" transform="rotate(31.4098 234.946 148.946)" fill="white" stroke="#111111" stroke-width="3"/>
+<rect x="194.447" y="8.8457" width="18.6346" height="27.4018" rx="9.31729" transform="rotate(55.8611 194.447 8.8457)" fill="#202054" stroke="#111111" stroke-width="3.02031"/>
+<circle cx="192.209" cy="21.2752" r="8.96655" transform="rotate(31.4098 192.209 21.2752)" fill="white" stroke="#111111" stroke-width="2.83154"/>
+<rect x="0.283793" y="1.47912" width="13.1413" height="19.324" rx="6.57063" transform="matrix(-0.561201 0.827679 0.827679 0.561201 370.083 87.042)" fill="#AB2638" stroke="#111111" stroke-width="2.12995"/>
+<circle cx="5.32487" cy="5.32487" r="6.32329" transform="matrix(-0.853462 0.521155 0.521155 0.853462 374.495 89.5527)" fill="white" stroke="#111111" stroke-width="1.99683"/>
+</svg>
+            </div>
+        </div>
+        <div class="flex flex-col lg:flex-row space-x-28 lg:mx-[10%]">
+            <div class="bg-[#FAF5EE] px-[20px] py-[24px] w-[350px] h-[362px]">
+                    <header class="font-semibold text-xl mt-2 mb-2">School of Product</header>
+                    <div class="h-[70%]">We offer you Product courses such as Product Design,Product management and Product marketing by equipping you with the right trainings and guidelines. Become a world class personnel and job-ready candidate in the product field.</div>
+                    <div class="underline pt-5">View Courses <font-awesome-icon icon="fa-solid fa-arrow-right" class="transform scale-x-150 inline-block align-middle ml-4 no-underline"  /></div>
+                </div>
+                <div class="bg-[#FAF5EE] px-[20px] py-[24px] w-[350px] h-[362px]">
+                    <header class="font-semibold text-xl mt-2 mb-2">School of Systems Engineering</header>
+                    <div class="h-[70%]">Begin your learning process in Front-End Web Development, Back-End Web Development and more. Discover career opportunities available for you. Speak to professionals and read through materials and the programme designed specifically for you.</div>
+                    <div class="underline pt-5">View Courses <font-awesome-icon icon="fa-solid fa-arrow-right" class="transform scale-x-150 inline-block align-middle ml-4 no-underline"  /></div>
+                </div>
+        </div>
+        <div class="bg-[#FAF5EE] px-[20px] py-[24px] w-[350px] h-[362px] lg:mt-28 mx-auto">
+                    <header class="font-semibold text-xl mt-2 mb-2">School of Data</header>
+                    <div class="h-[70%]">Even as a newbie in the data analysis space, you can jumpstart your journey and hone your skills by kicking it off with the Axia Africa School of Data Analysis.</div>
+                    <div class="underline pt-5">View Courses <font-awesome-icon icon="fa-solid fa-arrow-right" class="transform scale-x-150 inline-block align-middle ml-4 no-underline"  /></div>
+                </div>
+    </div>
+</template>
