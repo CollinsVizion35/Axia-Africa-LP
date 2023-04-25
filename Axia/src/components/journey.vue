@@ -17,21 +17,21 @@
             </div>
         </div>
         <div class="flex flex-col lg:flex-row space-x-28 lg:mx-[10%]">
-            <div class="bg-[#FAF5EE] px-[20px] py-[24px] w-[350px] h-[362px]">
-                    <header class="font-semibold text-xl mt-2 mb-2">School of Product</header>
-                    <div class="h-[70%]">We offer you Product courses such as Product Design,Product management and Product marketing by equipping you with the right trainings and guidelines. Become a world class personnel and job-ready candidate in the product field.</div>
-                    <div class="underline pt-5">View Courses <font-awesome-icon icon="fa-solid fa-arrow-right" class="transform scale-x-150 inline-block align-middle ml-4 no-underline"  /></div>
+            <div class="bg-[#FAF5EE] px-[20px] py-[24px] w-[340px] h-[362px]  before:bg-transparent before:border-4 before:w-[100%] before:border-black before:border-r-0 before:border-t-0 relative before:absolute before:top-10 before:right-3 before:h-[95%] before:z-[-1] z-[2]">
+                    <header class="font-black text-xl mt-2 mb-2">School of Product</header>
+                    <div class="h-[75%]">We offer you Product courses such as Product Design,Product management and Product marketing by equipping you with the right trainings and guidelines. Become a world class personnel and job-ready candidate in the product field.</div>
+                    <div id="arrowDiv5" class="underline pt-5 w-fit cursor-default">View Courses <font-awesome-icon id="arrow5" icon="fa-solid fa-arrow-right" class="transform scale-x-150 inline-block align-middle ml-4 no-underline"  /></div>
                 </div>
-                <div class="bg-[#FAF5EE] px-[20px] py-[24px] w-[350px] h-[362px]">
-                    <header class="font-semibold text-xl mt-2 mb-2">School of Systems Engineering</header>
-                    <div class="h-[70%]">Begin your learning process in Front-End Web Development, Back-End Web Development and more. Discover career opportunities available for you. Speak to professionals and read through materials and the programme designed specifically for you.</div>
-                    <div class="underline pt-5">View Courses <font-awesome-icon icon="fa-solid fa-arrow-right" class="transform scale-x-150 inline-block align-middle ml-4 no-underline"  /></div>
+                <div class="bg-[#FAF5EE] px-[20px] py-[24px] w-[340px] h-[362px]  before:bg-transparent before:border-4 before:w-[100%] before:border-black before:border-r-0 before:border-t-0 relative before:absolute before:top-10 before:right-3 before:h-[95%] before:z-[-1] z-[2]">
+                    <header class="font-black text-xl mt-2 mb-2">School of Systems Engineering</header>
+                    <div class="h-[75%]">Begin your learning process in Front-End Web Development, Back-End Web Development and more. Discover career opportunities available for you. Speak to professionals and read through materials and the programme designed specifically for you.</div>
+                    <div id="arrowDiv6" class="underline pt-5 w-fit cursor-default">View Courses <font-awesome-icon id="arrow6" icon="fa-solid fa-arrow-right" class="transform scale-x-150 inline-block align-middle ml-4 no-underline"  /></div>
                 </div>
         </div>
-        <div class="bg-[#FAF5EE] px-[20px] py-[24px] w-[350px] h-[362px] lg:mt-28 mx-auto">
-                    <header class="font-semibold text-xl mt-2 mb-2">School of Data</header>
-                    <div class="h-[70%]">Even as a newbie in the data analysis space, you can jumpstart your journey and hone your skills by kicking it off with the Axia Africa School of Data Analysis.</div>
-                    <div class="underline pt-5">View Courses <font-awesome-icon icon="fa-solid fa-arrow-right" class="transform scale-x-150 inline-block align-middle ml-4 no-underline"  /></div>
+        <div class="bg-[#FAF5EE] px-[20px] py-[24px] w-[264px] h-[362px]  before:bg-transparent before:border-4 before:w-[100%] before:border-black before:border-r-0 before:border-t-0 relative before:absolute before:top-10 before:right-3 before:h-[95%] before:z-[-1] z-[2] lg:mt-28 mx-auto">
+                    <header class="font-black text-xl mt-2 mb-2">School of Data</header>
+                    <div class="h-[75%]">Even as a newbie in the data analysis space, you can jumpstart your journey and hone your skills by kicking it off with the Axia Africa School of Data Analysis.</div>
+                    <div id="arrowDiv7" class="underline pt-5 w-fit cursor-default">View Courses <font-awesome-icon id="arrow7" icon="fa-solid fa-arrow-right" class="transform scale-x-150 inline-block align-middle ml-4 no-underline"  /></div>
                 </div>
     </div>
 </template>

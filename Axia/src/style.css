@@ -105,6 +105,115 @@ button:focus-visible {
   font-family: 'Tiempos Headline', sans-serif;
 }
 
+/* buttons effect */
+#btn1:hover {
+  background-color: #202054;
+  border-color: #111111;
+  color: white;
+}
+
+#btn1:hover ~ #btn2 {
+  background-color: #f0b73f;
+  border-color: #f0b73f;
+}
+
+#btn2:hover {
+  border-color: #202054;
+}
+
+
+#btn3:hover {
+  background-color: #202054;
+  border-color: #111111;
+  color: white;
+}
+
+#btn3:hover ~ #btn4 {
+  background-color: #f0b73f;
+  border-color: #f0b73f;
+}
+
+#btn4:hover {
+  border-color: #202054;
+}
+
+
+#btn5:hover {
+  background-color: white;
+  border-color: white;
+  color: #202054;
+}
+
+#btn5:hover ~ #btn6 {
+  background-color: #f0b73f;
+  border-color: #f0b73f;
+}
+
+#btn6:hover {
+  border-color: white;
+}
+
+
+#btn7:hover {
+  background-color: white;
+  border-color: white;
+  color: #202054;
+}
+
+#btn7:hover ~ #btn8 {
+  background-color: #f0b73f;
+  border-color: #f0b73f;
+}
+
+#btn8:hover {
+  border-color: white;
+}
+/* arrows effect */
+
+#arrowDiv1:hover #arrow1 {
+  margin-left: 1.5em;
+}
+
+#arrowDiv2:hover #arrow2 {
+  margin-left: 1.5em;
+}
+
+#arrowDiv3:hover #arrow3 {
+  margin-left: 1.5em;
+}
+
+#arrowDiv4:hover #arrow4 {
+  margin-left: 1.5em;
+}
+
+#arrowDiv5:hover #arrow5 {
+  margin-left: 1.5em;
+}
+
+#arrowDiv6:hover #arrow6 {
+  margin-left: 1.5em;
+}
+
+#arrowDiv7:hover #arrow7 {
+  margin-left: 1.5em;
+}
+
+
+#btn9:hover {
+  background-color: #202054;
+  border-color: #111111;
+  color: white;
+}
+
+#btn9:hover ~ #btn10 {
+  background-color: #f0b73f;
+  border-color: #f0b73f;
+}
+
+#btn10:hover {
+  border-color: #202054;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

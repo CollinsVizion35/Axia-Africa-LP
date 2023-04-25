@@ -10,7 +10,8 @@ export default {
 </script>
 
 <template>
-     <nav class=" flex flex-row justify-around w-[1080px] mx-auto h-[53px] items-center z-[-3] mb-8">
+  <div class="fixed top-0 ml-[-2em] w-screen z-[999999999999] py-4 bg-[#FFFCF9]">
+     <nav class=" top-0 flex flex-row  w-[1080px] mx-auto h-[53px] justify-around items-center z-[-3] mb-6">
     <div class=" v-logoo">
       <svg width="115" height="44" viewBox="0 0 115 44" fill="none"
         xmlns="http://www.w3.org/2000/svg">
@@ -82,9 +83,9 @@ export default {
         </div>
     </div>
     <div class="relative">
-      <Button class="  bg-[#202054] border-4 text-[#202054] border-[#202054] rounded-none  w-[135px] h-[53px] z-0">Apply Now</Button>
-      <Button class=" absolute bg-[#FFFCF9] border-4 border-[#202054] rounded-none  w-[135px] h-[53px] left-[-0.40em] top-[-0.40em]  z-3">Apply Now</Button>
+      <Button id="btn1" class="absolute bg-[#FFFCF9] border-4 border-[#202054] rounded-none  w-[135px] h-[53px] left-[-0.40em] top-[-0.40em]  z-3">Apply Now</Button>
+      <Button id="btn2" class="bg-[#202054] cursor-default border-4 text-[#202054] border-[#202054] rounded-none  w-[135px] h-[53px] z-0">Apply Now</Button>
     </div>
 
-  </nav>
+  </nav></div>
 </template>

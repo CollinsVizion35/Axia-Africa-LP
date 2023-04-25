@@ -68,7 +68,7 @@ data() {
     </div>
 
     
-    <div class="w-[95vw] mx-auto">
+    <div class="w-[100vw] ml-[-2em]">
                     <Vue3Marquee pauseOnHover :duration="120">
                         <div class="flex space-x-[5vh] mr-[5vh]">
                         <div v-for="testi in testis" :key="testi.id" class="flex flex-col space-y-3 p-8 lg: w-[425px] items-start min-h-[366.51px] bg-[#FAF5EE]">

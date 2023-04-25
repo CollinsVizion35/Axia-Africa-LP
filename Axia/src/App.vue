@@ -31,17 +31,21 @@
  <Footer/>
 </template>
 
-<!-- <style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+<style scoped>
+.button1:hover {
+  background-color: #202054;
+  border-color: #111111;
+ color: white;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+
+.button2 {
+  background-color: #202054;
+  border-color: #202054;
 }
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
+
+.button1:hover  .button2 {
+  background-color: yellow;
+  border-color: #202054;
 }
-</style> -->
+
+</style>

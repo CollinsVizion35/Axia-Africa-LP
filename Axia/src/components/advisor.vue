@@ -6,11 +6,12 @@
                 <div class="mb-7">Speak with our professional tech advisors to help kick start your tech journey and pilot
                     you to being an expert in your desired field.</div>
                 <div class="relative">
-                    <Button class="  bg-white border-4 text-white border-white rounded-none  z-0">Speak with an
-                        Advisor</Button>
-                    <Button
+                    
+                    <Button  id="btn5"
                         class=" absolute bg-[#202054] border-4 border-white rounded-none  left-[-0.40em] top-[-0.40em]  z-3">Speak
                         with an Advisor</Button>
+                    <Button id="btn6" class=" cursor-default bg-white border-4 text-white border-white rounded-none  z-0">Speak with an
+                        Advisor</Button>
                 </div>
             </div>
             <div>
