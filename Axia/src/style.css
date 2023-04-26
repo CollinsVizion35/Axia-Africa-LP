@@ -240,33 +240,13 @@ button:focus-visible {
 }
 
 /* transition effect */
-.advisorbox {
-  transition: width 0.5s, height 0.5s;
-  /* transform: scale(1); */
-  transition-duration: 0.15s;
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+.scale-enter-active,
+.scale-leave-active {
+  transition: scale 0.5s ease;
 }
 
-.scale-enter-active
- /* .scale-leave-active  */ {
-  /* transition: transform 1s; */
-  transition: all 1s;
-}
-
-.scale-enter {
-  transition: all 1s;
-  transform: scale(0);
-  visibility: hidden;
-}
-
-.scale-enter-active {
-  transform: scale(1);
-  visibility: visible;
-}
-
-.scale-enter,
-.scale-leave-to {
+.scale-enter-from {
+  scale: 0;
 }
 
 @media (prefers-color-scheme: light) {
