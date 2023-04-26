@@ -44,6 +44,7 @@ export default {
 
             </div>
 
+        </div>
     </div>
-</div></template>
+</template>
 <!-- left-[calc(100vw_-_1160px)] -->

@@ -47,11 +47,8 @@ body {
 
   overflow-x: hidden;
   scroll-behavior: smooth;
-  /* place-items: center;
-   */
-  /* min-width: 320px;
-  min-height: 100vh; */
   background-color: #fffcf9;
+  color: #111111;
   font-family: "Avenir", sans-serif;
 }
 
@@ -111,6 +108,10 @@ button:focus-visible {
   color: white;
 }
 
+#btn1:hover a {
+  color: white;
+}
+
 #btn1:hover ~ #btn2 {
   background-color: #f0b73f;
   border-color: #f0b73f;
@@ -123,6 +124,10 @@ button:focus-visible {
 #btn3:hover {
   background-color: #202054;
   border-color: #111111;
+  color: white;
+}
+
+#btn3:hover a {
   color: white;
 }
 
@@ -167,6 +172,10 @@ button:focus-visible {
 #btn9:hover {
   background-color: #202054;
   border-color: #111111;
+  color: white;
+}
+
+#btn9:hover a {
   color: white;
 }
 
@@ -218,7 +227,6 @@ button:focus-visible {
 .anim {
   animation: IconsMove 10s infinite;
 }
-
 @keyframes IconsMove {
   0% {
     transform: translateY(0);
@@ -229,6 +237,36 @@ button:focus-visible {
   100% {
     transform: translateY(0);
   }
+}
+
+/* transition effect */
+.advisorbox {
+  transition: width 0.5s, height 0.5s;
+  /* transform: scale(1); */
+  transition-duration: 0.15s;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.scale-enter-active
+ /* .scale-leave-active  */ {
+  /* transition: transform 1s; */
+  transition: all 1s;
+}
+
+.scale-enter {
+  transition: all 1s;
+  transform: scale(0);
+  visibility: hidden;
+}
+
+.scale-enter-active {
+  transform: scale(1);
+  visibility: visible;
+}
+
+.scale-enter,
+.scale-leave-to {
 }
 
 @media (prefers-color-scheme: light) {

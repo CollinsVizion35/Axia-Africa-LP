@@ -18,7 +18,7 @@ export default {
 
 <template>
   <div
-    class="fixed md:top-0 ml-[-2em] w-screen z-[999999999999] md:py-4 py-0 pt-3 mt-[-2.2em] md:mt-0 bg-[#FFFCF9] md:mb-[5em] md:shadow-none shadow-bottom shadow-md">
+    class="fixed md:top-0 ml-[-2em] w-screen z-[999999999999] md:py-8 py-0 pt-3 mt-[-2.2em] md:mt-0 bg-[#FFFCF9] md:mb-[5em] md:shadow-none shadow-bottom shadow-md">
     <nav
       class=" top-0 flex flex-row w-[100vw] justify-between px-3 lg:w-[1080px] mx-auto md:h-[53px] md:justify-around items-center z-[-3] mb-6">
       <div class=" v-logoo">
@@ -135,31 +135,34 @@ export default {
         <div class="dropdown">
           <div class="flex flex-row items-center space-x-2">Schools <font-awesome-icon class="text-[0.8em] ml-3"
               icon="fa-solid fa-chevron-down" /></div>
-          <ul class="shadow-lg dropdown-content text-left absolute hidden space-y-3 z-[999999] mt-3 p-4 bg-[#FFFCF9]">
-            <li>School of Product</li>
-            <li>School of Engineering</li>
-            <li>School of Data</li>
+          <ul class="shadow-lg dropdown-content text-left absolute hidden space-y-3 z-[999999] p-4 bg-[#FFFCF9]">
+            <li><a class="text-[#111111] hover:text-[#111111]" href="https://www.axia.africa/schools/product">School of
+                Product</a></li>
+            <li><a class="text-[#111111] hover:text-[#111111]" href="https://www.axia.africa/schools/engineering">School
+                of Engineering</a></li>
+            <li><a class="text-[#111111] hover:text-[#111111]" href="https://www.axia.africa/schools/data">School of
+                Data</a></li>
           </ul>
         </div>
         <div>Join Our Community</div>
         <div class="dropdown">
           <div class="flex flex-row items-center space-x-2">Help <font-awesome-icon class="text-[0.8em] ml-3"
               icon="fa-solid fa-chevron-down" /></div>
-          <ul class="shadow-lg dropdown-content text-left absolute hidden space-y-3 z-[999999] mt-3 p-4 bg-[#FFFCF9]">
-            <li>FAQs</li>
-            <li>Contact Us</li>
+          <ul class="shadow-lg dropdown-content text-left absolute hidden space-y-3 z-[999999] p-4 bg-[#FFFCF9]">
+            <li><a class="text-[#111111] hover:text-[#111111]" href="https://www.axia.africa/faqs">FAQs</a></li>
+            <li><a class="text-[#111111] hover:text-[#111111]" href="#">Contact Us</a></li>
           </ul>
         </div>
       </div>
       <div class="relative hidden md:block">
         <Button id="btn1"
-          class="absolute bg-[#FFFCF9] border-4 border-[#202054] rounded-none  w-[135px] h-[53px] left-[-0.40em] top-[-0.40em]  z-3">Apply
-          Now</Button>
+          class="absolute bg-[#FFFCF9] border-4 border-[#111111] rounded-none  w-[135px] h-[53px] left-[-0.40em] top-[-0.40em]  z-3"><a
+            class="text-[#111111] hover:text-white" href="https://www.axia.africa/application">Apply
+            Now</a></Button>
         <Button id="btn2"
           class="bg-[#202054] cursor-default border-4 text-[#202054] border-[#202054] rounded-none  w-[135px] h-[53px] z-0">Apply
           Now</Button>
       </div>
 
     </nav>
-  </div>
-</template>
+</div></template>

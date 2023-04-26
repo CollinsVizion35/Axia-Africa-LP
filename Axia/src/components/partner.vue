@@ -6,7 +6,7 @@
             <div>Do you have a passion for making impact and inspiring to the tech space? Partner with us at Axia Africa
                 and<br class="hidden md:block"> share our passion of leading a generation of tech talents waiting to be
                 tapped.</div>
-            <div class="md:absolute top-48 flex flex-col lg:flex-row md:space-x-80 pt-20 md:pt-10">
+            <div class="md:absolute top-48 flex flex-col md:flex-row md:space-x-16 lg:space-x-80 pt-20 md:pt-10">
                 <svg class="hidden md:block" width="251" height="92" viewBox="0 0 251 92" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <circle cx="243.506" cy="39.8421" r="5.49576" transform="rotate(31.4098 243.506 39.8421)" fill="white"
@@ -25,8 +25,9 @@
 
                 <div class="relative">
                     <Button id="btn9"
-                        class="absolute bg-[#FFFCF9] border-4 border-[#202054] rounded-none  w-[135px] h-[53px] left-[-0.40em] top-[-0.40em]  z-3">Learn
-                        More</Button>
+                        class="absolute bg-[#FFFCF9] border-4 border-[#111111] rounded-none  w-[135px] h-[53px] left-[-0.40em] top-[-0.40em]  z-3"><a
+                            class="text-[#111111] hover:text-white" href="https://www.axia.africa/partners">Learn
+                            More</a></Button>
                     <Button id="btn10"
                         class="bg-[#202054] cursor-default border-4 text-[#202054] border-[#202054] rounded-none  w-[135px] h-[53px] z-0">Learn
                         More</Button>

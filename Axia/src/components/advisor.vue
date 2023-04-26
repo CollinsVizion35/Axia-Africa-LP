@@ -5,7 +5,7 @@
     <div class="w-screen ml-[-2em] bg-[#202054] py-[4rem] md:py-[9rem] text-white">
         <div
             class="max-w-[1280px] flex flex-col lg:flex-row md:justify-center md:mx-auto px-[5vw] lg:px-[150px] md:items-start">
-            <div class="md:w-[45%] w-[90vw] mr-[5vw] md:mr-[10%] flex flex-col">
+            <div class="md:w-[55vw] w-[90vw] mr-[5vw] md:mr-[10%] flex flex-col">
                 <header class="accel font-medium text-3xl md:text-4xl space-y-6 mb-7 mt-5">Confused about what to learn?
                 </header>
                 <div class="mb-7">Speak with our professional tech advisors to help kick start your tech journey and pilot

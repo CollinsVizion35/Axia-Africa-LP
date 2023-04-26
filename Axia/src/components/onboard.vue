@@ -25,7 +25,7 @@
             <div>
                 <header class="font-bold text-2xl md:text-3xl pb-6 w-[90vw] accel"><font-awesome-icon
                         icon="fa-solid fa-minus" class=" scale-x-150" /> Why choose us</header>
-                <div class="md:w-[80vw] lg:w-[50vw]">We at Axia Africa are intentional about our students and focused about
+                <div class="md:w-[80vw] lg:w-[75vw]">We at Axia Africa are intentional about our students and focused about
                     building a community. The tech
                     space
                     in Africa is fast growing and we have the necessary programmes to help launch you into that space. We
