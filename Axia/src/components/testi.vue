@@ -56,12 +56,12 @@ data() {
 
 <template>
     <div class="mx-auto mb-6 w-[960px]">
-        <div class="flex flex-col-reverse lg:flex-row py-20 max-w-[1280px]">
+        <div class="flex flex-col-reverse lg:flex-row py-20 max-w-[1280px] w-[95vw]">
             <div class="flex flex-col">
 
-                <div class="w-[960px]">
-                    <header class="accel font-medium  text-4xl mb-8">Our success story</header>
-                    <div>What our students are saying about their learning experience.</div>
+                <div class="md:w-[960px] w-[95vw]">
+                    <header class="accel font-medium text-3xl md:text-4xl mb-4 md:mb-8">Our success story</header>
+                    <div class="w-[95vw] mr-[5vw] md:text-[1.1em]">What our students are saying about their learning experience.</div>
                 </div>
             </div>
         </div>
