@@ -4,7 +4,8 @@
             class="relative max-w-[1280px] w-[95vw] mx-[2.5vw] md:w-auto text-center md:text-left flex flex-col justify-center md:mx-auto md:px-[150px] items-center place-content-center place-items-center">
             <header class="accel font-medium text-3xl md:text-4xl pb-8 md:pb-16 pt-4 md:pt-0">Partner With Us</header>
             <div>Do you have a passion for making impact and inspiring to the tech space? Partner with us at Axia Africa
-                and<br class="hidden md:block"> share our passion of leading a generation of tech talents waiting to be tapped.</div>
+                and<br class="hidden md:block"> share our passion of leading a generation of tech talents waiting to be
+                tapped.</div>
             <div class="md:absolute top-48 flex flex-col lg:flex-row md:space-x-80 pt-20 md:pt-10">
                 <svg class="hidden lg:block" width="251" height="92" viewBox="0 0 251 92" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
@@ -44,31 +45,32 @@
                         fill="white" stroke="black" stroke-width="2.58605" />
                     <rect x="-1.73442" y="-0.654643" width="14.4157" height="20.3553" rx="7.20786"
                         transform="matrix(-0.411854 -0.91125 -0.91125 0.411854 248.92 56.4891)" fill="#AB2638"
-                    stroke="black" stroke-width="2.62174" />
-                <circle r="7.09513" transform="matrix(0.00226801 -0.999997 -0.999997 -0.00226801 241.238 53.9465)"
-                    fill="white" stroke="black" stroke-width="2.62174" />
-            </svg>
+                        stroke="black" stroke-width="2.62174" />
+                    <circle r="7.09513" transform="matrix(0.00226801 -0.999997 -0.999997 -0.00226801 241.238 53.9465)"
+                        fill="white" stroke="black" stroke-width="2.62174" />
+                </svg>
 
-            <svg class="lg:hidden block w-[80vw] absolute left-6 top-0" width="301" height="461" viewBox="0 0 301 461"
-                fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="138.819" cy="454.498" r="4.44985" transform="rotate(31.4098 138.819 454.498)" fill="white"
-                    stroke="#111111" stroke-width="2.42719" />
-                <circle cx="9.83526" cy="379.822" r="8.09505" transform="rotate(31.4098 9.83526 379.822)" fill="white"
-                    stroke="#111111" stroke-width="3.33575" />
-                <rect x="-1.38733" y="-0.637874" width="13.3232" height="19.5915" rx="6.66159"
-                    transform="matrix(-0.347063 -0.937842 -0.937842 0.347063 296.859 15.1933)" fill="#F0B73F"
-                    stroke="#111111" stroke-width="2.15944" />
-                <circle r="6.41082" transform="matrix(0.0722557 -0.997386 -0.997386 -0.0722557 289.779 12.4076)"
-                    fill="white" stroke="#111111" stroke-width="2.02447" />
-                <rect x="-1.56097" y="-0.589178" width="12.9741" height="18.3197" rx="6.48706"
-                    transform="matrix(-0.411854 -0.91125 -0.91125 0.411854 266.45 390.241)" fill="#AB2638"
-                    stroke="#111111" stroke-width="2.35956" />
-                <circle r="6.3856" transform="matrix(0.00226801 -0.999997 -0.999997 -0.00226801 259.537 387.952)"
-                    fill="white" stroke="#111111" stroke-width="2.35956" />
-            </svg>
+                <svg class="lg:hidden block w-[80vw] absolute left-6 top-0" width="301" height="461" viewBox="0 0 301 461"
+                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="138.819" cy="454.498" r="4.44985" transform="rotate(31.4098 138.819 454.498)" fill="white"
+                        stroke="#111111" stroke-width="2.42719" />
+                    <circle cx="9.83526" cy="379.822" r="8.09505" transform="rotate(31.4098 9.83526 379.822)" fill="white"
+                        stroke="#111111" stroke-width="3.33575" />
+                    <rect x="-1.38733" y="-0.637874" width="13.3232" height="19.5915" rx="6.66159"
+                        transform="matrix(-0.347063 -0.937842 -0.937842 0.347063 296.859 15.1933)" fill="#F0B73F"
+                        stroke="#111111" stroke-width="2.15944" />
+                    <circle r="6.41082" transform="matrix(0.0722557 -0.997386 -0.997386 -0.0722557 289.779 12.4076)"
+                        fill="white" stroke="#111111" stroke-width="2.02447" />
+                    <rect x="-1.56097" y="-0.589178" width="12.9741" height="18.3197" rx="6.48706"
+                        transform="matrix(-0.411854 -0.91125 -0.91125 0.411854 266.45 390.241)" fill="#AB2638"
+                        stroke="#111111" stroke-width="2.35956" />
+                    <circle r="6.3856" transform="matrix(0.00226801 -0.999997 -0.999997 -0.00226801 259.537 387.952)"
+                        fill="white" stroke="#111111" stroke-width="2.35956" />
+                </svg>
 
 
 
+            </div>
         </div>
     </div>
-</div></template>
+</template>

@@ -19,7 +19,8 @@ export default {
 <template>
   <div
     class="fixed md:top-0 ml-[-2em] w-screen z-[999999999999] md:py-4 py-0 pt-3 mt-[-2.2em] md:mt-0 bg-[#FFFCF9] md:mb-[5em] md:shadow-none shadow-bottom shadow-md">
-    <nav class=" top-0 flex flex-row w-[100vw] justify-between md:w-[1080px] mx-auto md:h-[53px] md:justify-around items-center z-[-3] mb-6">
+    <nav
+      class=" top-0 flex flex-row w-[100vw] justify-between md:w-[1080px] mx-auto md:h-[53px] md:justify-around items-center z-[-3] mb-6">
       <div class=" v-logoo">
         <svg class="pl-4 lg:pl-0" width="115" height="44" viewBox="0 0 115 44" fill="none"
           xmlns="http://www.w3.org/2000/svg">
@@ -78,49 +79,55 @@ export default {
         <ul v-if="isMenuOpen" class="fixed h-[100vh] w-[100vw] px-8 top-0 left-0 bg-white">
           <div class="flex flex-col lg:flex-row">
 
-              
-             
 
-              <div class=" flex md:hidden md:mt-0 mt-32 space-x-10">
 
-                <div>
-                  <header class="font-bold ">SCHOOLS</header>
-                  <ul>
-                    <li class="pt-10"><a class="text-black text-[0.9em]" href="https://www.axia.africa/schools/product"></a>School of
-                      Product</li>
-                    <li class="pt-10"><a class="text-black text-[0.9em]" href="https://www.axia.africa/schools/data"></a>School of Data
-                    </li>
-                    <li class="pt-10"><a class="text-black text-[0.9em]" href="https://www.axia.africa/schools/engineering">School of
-                        Engineering</a></li>
-                  </ul>
-                </div>
-                <div class>
-                  <header class="font-bold ">COMPANY</header>
-                  <ul>
-                    <li class="pt-10"><a class="text-black text-[0.9em]" href="https://www.axia.africa/#onboard"></a>About
-                    </li>
-                    <li class="pt-10"><a class="text-black text-[0.9em]" href="https://www.axia.africa/faqs">FAQs</a></li>
-                    <li class="pt-10"><a class="text-black text-[0.9em]" href="https://www.axia.africa/#"></a>Join Our
-                      Community</li>
-                    <li class="pt-10"><a class="text-black text-[0.9em]" href="https://www.axia.africa/partners">Partnership</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="flex flex-row space-x-5">
-              <div class="mt-10 md:mt-0">
-                <header class="font-bold ">HELP</header>
+
+            <div class=" flex md:hidden md:mt-0 mt-32 space-x-10">
+
+              <div>
+                <header class="font-bold ">SCHOOLS</header>
                 <ul>
-                  <li class="pt-10"><a class="text-black text-[0.9em]" href="mailto:axiaafrica@gmail.com">axiaafrica@gmail.com</a>
+                  <li class="pt-10"><a class="text-black text-[0.9em]"
+                      href="https://www.axia.africa/schools/product"></a>School of
+                    Product</li>
+                  <li class="pt-10"><a class="text-black text-[0.9em]"
+                      href="https://www.axia.africa/schools/data"></a>School of Data
                   </li>
-                  <li class="pt-5"><a class="text-black text-[0.9em]" href="tel:+2349015558035">09015558035</a></li>
+                  <li class="pt-10"><a class="text-black text-[0.9em]"
+                      href="https://www.axia.africa/schools/engineering">School of
+                      Engineering</a></li>
                 </ul>
               </div>
-
-
+              <div class>
+                <header class="font-bold ">COMPANY</header>
+                <ul>
+                  <li class="pt-10"><a class="text-black text-[0.9em]" href="https://www.axia.africa/#onboard"></a>About
+                  </li>
+                  <li class="pt-10"><a class="text-black text-[0.9em]" href="https://www.axia.africa/faqs">FAQs</a></li>
+                  <li class="pt-10"><a class="text-black text-[0.9em]" href="https://www.axia.africa/#"></a>Join Our
+                    Community</li>
+                  <li class="pt-10"><a class="text-black text-[0.9em]"
+                      href="https://www.axia.africa/partners">Partnership</a></li>
+                </ul>
+              </div>
             </div>
+          </div>
+          <div class="flex flex-row space-x-5">
+            <div class="mt-10 md:mt-0">
+              <header class="font-bold ">HELP</header>
+              <ul>
+                <li class="pt-10"><a class="text-black text-[0.9em]"
+                    href="mailto:axiaafrica@gmail.com">axiaafrica@gmail.com</a>
+                </li>
+                <li class="pt-5"><a class="text-black text-[0.9em]" href="tel:+2349015558035">09015558035</a></li>
+              </ul>
+            </div>
+
+
+          </div>
         </ul>
-        <button v-if="isMenuOpen" @click="closeMenu"><font-awesome-icon icon="fa-solid fa-xmark" class="flex justify-end absolute top-4 right-6 text-xl"/></button>
+        <button v-if="isMenuOpen" @click="closeMenu"><font-awesome-icon icon="fa-solid fa-xmark"
+            class="flex justify-end absolute top-4 right-6 text-xl" /></button>
       </div>
 
       <div class="nav-bar hidden lg:flex flex-row w-[432px] justify-around">
@@ -150,8 +157,8 @@ export default {
           Now</Button>
         <Button id="btn2"
           class="bg-[#202054] cursor-default border-4 text-[#202054] border-[#202054] rounded-none  w-[135px] h-[53px] z-0">Apply
-          Now</Button>
-      </div>
+        Now</Button>
+    </div>
 
   </nav>
 </div></template>

@@ -115,7 +115,8 @@
                             <li class="pt-10"><a class="text-white"
                                     href="mailto:axiaafrica@gmail.com">axiaafrica@gmail.com</a>
                             </li>
-                            <li class="pt-5"><a class="text-white text-[0.9em]" href="tel:+2349015558035">09015558035</a></li>
+                            <li class="pt-5"><a class="text-white text-[0.9em]" href="tel:+2349015558035">09015558035</a>
+                            </li>
                         </ul>
                     </div>
 
@@ -130,4 +131,5 @@
 
             <div class="flex mt-28 justify-center items-center mx-auto">© 2023 Axia Africa. All rights reserved.</div>
         </div>
-</footer></template>
+    </footer>
+</template>
