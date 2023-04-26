@@ -1,13 +1,13 @@
 <template>
     <div class="w-screen ml-[-2em] bg-inherit py-[8rem] mb-16">
         <div
-            class="relative max-w-[1280px] w-[95vw] mx-[2.5vw] md:w-auto text-center md:text-left flex flex-col justify-center md:mx-auto md:px-[150px] items-center place-content-center place-items-center">
+            class="relative max-w-[1280px] w-[95vw] mx-[2.5vw] md:w-auto text-center lg:text-left flex flex-col justify-center lg:mx-auto md:px-[150px] items-center place-content-center place-items-center">
             <header class="accel font-medium text-3xl md:text-4xl pb-8 md:pb-16 pt-4 md:pt-0">Partner With Us</header>
             <div>Do you have a passion for making impact and inspiring to the tech space? Partner with us at Axia Africa
                 and<br class="hidden md:block"> share our passion of leading a generation of tech talents waiting to be
                 tapped.</div>
             <div class="md:absolute top-48 flex flex-col lg:flex-row md:space-x-80 pt-20 md:pt-10">
-                <svg class="hidden lg:block" width="251" height="92" viewBox="0 0 251 92" fill="none"
+                <svg class="hidden md:block" width="251" height="92" viewBox="0 0 251 92" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <circle cx="243.506" cy="39.8421" r="5.49576" transform="rotate(31.4098 243.506 39.8421)" fill="white"
                         stroke="black" stroke-width="2.99769" />
@@ -32,7 +32,7 @@
                         More</Button>
                 </div>
 
-                <svg class="hidden lg:block" width="252" height="85" viewBox="0 0 252 85" fill="none"
+                <svg class="hidden md:block" width="252" height="85" viewBox="0 0 252 85" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <circle cx="99.5769" cy="78.7044" r="4.94429" transform="rotate(31.4098 99.5769 78.7044)" fill="white"
                         stroke="black" stroke-width="2.69688" />
@@ -50,7 +50,7 @@
                         fill="white" stroke="black" stroke-width="2.62174" />
                 </svg>
 
-                <svg class="lg:hidden block w-[80vw] absolute left-6 top-0" width="301" height="461" viewBox="0 0 301 461"
+                <svg class="md:hidden block w-[80vw] absolute left-6 top-0" width="301" height="461" viewBox="0 0 301 461"
                     fill="none" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="138.819" cy="454.498" r="4.44985" transform="rotate(31.4098 138.819 454.498)" fill="white"
                         stroke="#111111" stroke-width="2.42719" />

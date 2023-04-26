@@ -20,7 +20,7 @@ export default {
   <div
     class="fixed md:top-0 ml-[-2em] w-screen z-[999999999999] md:py-4 py-0 pt-3 mt-[-2.2em] md:mt-0 bg-[#FFFCF9] md:mb-[5em] md:shadow-none shadow-bottom shadow-md">
     <nav
-      class=" top-0 flex flex-row w-[100vw] justify-between md:w-[1080px] mx-auto md:h-[53px] md:justify-around items-center z-[-3] mb-6">
+      class=" top-0 flex flex-row w-[100vw] justify-between px-3 lg:w-[1080px] mx-auto md:h-[53px] md:justify-around items-center z-[-3] mb-6">
       <div class=" v-logoo">
         <svg class="pl-4 lg:pl-0" width="115" height="44" viewBox="0 0 115 44" fill="none"
           xmlns="http://www.w3.org/2000/svg">
@@ -151,14 +151,15 @@ export default {
           </ul>
         </div>
       </div>
-      <div class="relative hidden lg:block">
+      <div class="relative hidden md:block">
         <Button id="btn1"
           class="absolute bg-[#FFFCF9] border-4 border-[#202054] rounded-none  w-[135px] h-[53px] left-[-0.40em] top-[-0.40em]  z-3">Apply
           Now</Button>
         <Button id="btn2"
           class="bg-[#202054] cursor-default border-4 text-[#202054] border-[#202054] rounded-none  w-[135px] h-[53px] z-0">Apply
-        Now</Button>
-    </div>
+          Now</Button>
+      </div>
 
-  </nav>
-</div></template>
+    </nav>
+  </div>
+</template>
