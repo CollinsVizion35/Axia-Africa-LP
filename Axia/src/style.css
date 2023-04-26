@@ -98,7 +98,7 @@ button:focus-visible {
 }
 
 .dropdown:hover .dropdown-content {
-  display: block;
+  display: flex;
 }
 
 /* hero.vue */
