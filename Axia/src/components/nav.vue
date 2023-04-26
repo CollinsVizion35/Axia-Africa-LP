@@ -128,7 +128,7 @@ export default {
         <div class="dropdown">
           <div class="flex flex-row items-center space-x-2">Schools <font-awesome-icon class="text-[0.8em] ml-3"
               icon="fa-solid fa-chevron-down" /></div>
-          <ul class="shadow-lg dropdown-content text-left absolute flex space-y-3 z-[999999] mt-3 p-4 bg-[#FFFCF9]">
+          <ul class="shadow-lg dropdown-content text-left absolute hidden space-y-3 z-[999999] mt-3 p-4 bg-[#FFFCF9]">
             <li>School of Product</li>
             <li>School of Engineering</li>
             <li>School of Data</li>
@@ -138,7 +138,7 @@ export default {
         <div class="dropdown">
           <div class="flex flex-row items-center space-x-2">Help <font-awesome-icon class="text-[0.8em] ml-3"
               icon="fa-solid fa-chevron-down" /></div>
-          <ul class="shadow-lg dropdown-content text-left absolute flex space-y-3 z-[999999] mt-3 p-4 bg-[#FFFCF9]">
+          <ul class="shadow-lg dropdown-content text-left absolute hidden space-y-3 z-[999999] mt-3 p-4 bg-[#FFFCF9]">
             <li>FAQs</li>
             <li>Contact Us</li>
           </ul>
