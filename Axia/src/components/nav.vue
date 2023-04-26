@@ -18,7 +18,7 @@ export default {
 
 <template>
   <div
-    class="fixed md:top-0 ml-[-2em] w-screen z-[999999999999] md:py-4 py-0 pt-3 mt-[-2.2em] bg-[#FFFCF9] md:mb-[5em] md:shadow-none shadow-bottom shadow-md">
+    class="fixed md:top-0 ml-[-2em] w-screen z-[999999999999] md:py-4 py-0 pt-3 mt-[-2.2em] md:mt-0 bg-[#FFFCF9] md:mb-[5em] md:shadow-none shadow-bottom shadow-md">
     <nav class=" top-0 flex flex-row w-[100vw] justify-between md:w-[1080px] mx-auto md:h-[53px] md:justify-around items-center z-[-3] mb-6">
       <div class=" v-logoo">
         <svg class="pl-4 lg:pl-0" width="115" height="44" viewBox="0 0 115 44" fill="none"
