@@ -239,7 +239,7 @@ button:focus-visible {
   }
 }
 
-/* transition effect */
+/* transition effects */
 .scale-enter-active,
 .scale-leave-active {
   transition: scale 0.25s ease;
