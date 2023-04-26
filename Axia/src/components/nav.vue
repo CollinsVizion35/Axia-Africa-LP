@@ -18,11 +18,11 @@ export default {
 
 <template>
   <div
-    class="fixed md:top-0 ml-[-2em] w-screen z-[999999999999] md:py-8 py-0 pt-3 mt-[-2.2em] md:mt-0 bg-[#FFFCF9] md:mb-[5em] md:shadow-none shadow-bottom shadow-md">
+    class="fixed md:top-0 ml-[-2em] w-screen z-[999999999999] md:py-2 md:pt-6 py-0 pt-3 mt-[-2.2em] md:mt-0 bg-[#FFFCF9] md:mb-[5em] md:shadow-none shadow-bottom shadow-md">
     <nav
       class=" top-0 flex flex-row w-[100vw] justify-between px-3 lg:w-[1080px] mx-auto md:h-[53px] md:justify-around items-center z-[-3] mb-6">
       <div class=" v-logoo">
-        <svg class="pl-4 lg:pl-0" width="115" height="44" viewBox="0 0 115 44" fill="none"
+        <svg class="lg:pl-0 pl-2 pt-1" width="115" height="44" viewBox="0 0 115 44" fill="none"
           xmlns="http://www.w3.org/2000/svg">
           <path
             d="M21.9467 43.9467C9.84541 43.9467 0 34.1013 0 22C0 9.89863 9.84541 0.0532227 21.9467 0.0532227C34.0481 0.0532227 43.8935 9.89863 43.8935 22C43.8935 34.1013 34.0481 43.9467 21.9467 43.9467ZM21.9467 2.78222C11.3504 2.78222 2.729 11.4037 2.729 22C2.729 32.5963 11.3504 41.2177 21.9467 41.2177C32.5431 41.2177 41.1645 32.5963 41.1645 22C41.1645 11.4037 32.5431 2.78222 21.9467 2.78222Z"
